@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/4a99720832.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles2.css">
+    <link rel="stylesheet" href="mobilestyles2.css" media="screen and (max-width: 51rem)">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="grid">
+        <header>
+            <div class="headerBox">
+                <a href="index.html"><img class="stadsNäraLantgårdEmblem" src="pictures/headerPicture.png"
+                        alt="stadsnära lantgård emblem">
+                </a>
+                <h2>Välkommen till Stadsnära Lantgård</h2>
+                <h3>Stadsnära Lantgård</h3>
+            </div>
+
+
+        </header>
+
+        <nav style="background-color: rgb(165, 188, 87);">
+            <i class="fas fa-bars"></i>
+            <ul>
+                <li><a href="Nyheter">Nyheter</a></li>
+                <li><a href="Öppetider">Öppettider</a></li>
+                <li><a href="Café">Café</a></li>
+                <li><a href="Föreningen">Föreningen</a></li>
+                <li><a href="Kontakt">Kontakt</a></li>
+                <li><a href="Omoss">Om oss</a></li>
+
+
+            </ul>
+
+        </nav>
+        <aside>
+            <ul>
+                <li><a href="Djuren">Djuren</a></li>
+                <li><a href="Volontär">Volontär</a></li>
+                <li><a href="Bokagården">Boka gården</a></li>
+                <li><a href="Barnkalas">Barnkalas</a></li>
+                <li><a href="Ponnyridning"> Ponnyridning</a></li>
+                <li><a href="Loppis">Loppis</a></li>
+                <li><a href="Tack">Tack</a></li>
+                <li><a href="Sponsorer">Sponsorer</a></li>
+
+
+            </ul>
+
+        </aside>
+
+        <main>
+
+            <h3>Bokning av barnkalas</h3>
+
+            <p> Här kan ni boka ert barnkalas hos oss.
+                Fyll i formuläret och skicka in till oss, så kontaktar vi
+                er så fort vi har <br>
+                fått in det, för pris, bokning av datum och vidare planering.
+                <em>Bokningen gäller helger, fredag till söndag.</em>
+            </p>
+
+            <form>
+                <fieldset>
+                    <legend>Kontaktinformation</legend>
+
+                    <br>
+
+                    <div class="formInfo"> Förnamn:
+                        <input type="text" name="firstName" required>
+                        <br><br>
+                        Efternamn:
+                        <input type="text" name="lastName" required>
+                        <br><br>
+                        Mobilnummer:
+                        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{7}" maxlength="11" required>
+                        <span>ex. 070-*******</span>
+                        <br><br>
+                    </div>
+
+                </fieldset>
+
+                <br><br>
+
+                <fieldset>
+                    <legend>Beställning till kalaset</legend>
+
+                    <br>
+
+                    <div class="formInfo">Antal gäster:
+                        <input type="number" name="guests" min="1" max="15">
+                        <span>max 15 gäster</span>
+
+                        <br><br>
+
+                        Önskas ponnyridning?
+                        <input type="radio" name="yes" value="ja"> Ja
+                        <input type="radio" name="no" value="nej"> Nej
+                        <br><br>
+
+                        Vad önskas att äta?
+                        <select style="margin-left: 0.5em">
+                            <option value="Hamburgare">Hamburgare</option>
+                            <option value="korvMedBröd">Korv med bröd</option>
+                            <option value="köttBullarMedMos">Köttbullar med mos</option>
+                        </select>
+
+                        <br><br>
+
+                        Specialkost: <br><br>
+                        <textarea name="Specialkost" cols="20" rows="10">Specificera vilken typ av allergi/specialkost och antal:
+                    </textarea>
+                        <br><br>
+
+                    </div>
+
+
+                </fieldset>
+
+                <br><br>
+
+                <input type="submit" value="Submit">
+
+            </form>
+
+
+        </main>
+
+        <footer style="background-color: rgb(165, 188, 87)">
+            <div class="contactFooter">
+                <p style="margin-left: 1.5rem"> Stadsnära Lantgård Lidköping <br>
+                    Råda, Brädegården <br>
+                    531 57 Lidköping <br>
+
+
+                    Telefon direkt: 072-397 88 97 (bemannad 10.00 - 16.00)
+
+                </p>
+
+                <p class="iconsFooter"><i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fas fa-envelope-square"></i></p>
+
+            </div>
+
+
+
+        </footer>
+
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+header .headerBox h3 {
+    font-size: 1.5rem;
+}
+
+/* Gömmer aside och länkarna i nav.  */
+@media all and (max-width: 53rem) {
+    body nav ul, aside, header .headerBox h2 {
+        display: none;
+        visibility: hidden;
+
+    }
+}
+
+
+body nav {
+    height: 2rem;
+    display: flex;
+    justify-content: start;
+}
+
+nav i {
+    margin-left: 1.5rem;
+    font-size: 80%;
+}
+
+/* Skapar animation för Boka barnkalas-texten. */
+h3{
+    animation: 3s fadeintop;
+}
+@keyframes fadeintop {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+main p {
+    font-size: 1rem;
+}
+
+main h3 {
+    font-size: 1.5rem;
+}
+
+main p {
+    font-size: 1.2rem;
+}
+
+main form legend {
+    font-size: 1rem;
+}
+
+footer i {
+    font-size: 120%;
+}
+
+footer p {
+    font-size: 0.9rem;
+}

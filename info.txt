@@ -1,0 +1,11 @@
+Emelie Rosenlöw och Filip Sunnemar
+
+Vi har valt att uppdatera Stadsnära lantgård,  http://www.lantgarden.com/ , till vår inlämning 2. 
+Vår avgränsning är att vi har valt att omstrukturera sidans innehåll, då de hade mycket information direkt på framsidan, vilket vi upplevde gjorde sidan svårnavigerad. 
+Detta har vi istället valt att lägga i en huvudmeny och enn sidebar. De hade tex. nyheter direkt på framsidan, vilket vi hade valt att lägga i en egen rubrik i huvudmenyn.
+Vi har även tagit bort facebook-länken som låg till vänster på sidan. Vi har istället valt att lägga in en facebook-ikon i footern
+som ska agera facebook-länk. 
+Därtill har vi tagit bort en del av texten från förstasidan då den kändes överflödig och inte innehöll, vad vi ansåg, nödvändig information. 
+Bokning av barnkalas hade inte en egen sida tidigare, utan det låg info om bokning direkt på huvudsidan. Bild på detta finns
+på desktop2.jpg.
+
